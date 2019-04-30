@@ -8,8 +8,7 @@ $(function(){
           alert ("This Item Is Already On Your List!");
           inList = true;
         } 
-       });
-      
+       });      
       if (!inList) {
         $('ul').append(`<li>
           <span class="shopping-item"> ${result} </span>
